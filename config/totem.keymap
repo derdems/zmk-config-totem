@@ -222,8 +222,8 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp GRAVE  &kp UNDER       &kp UP          &kp PLUS         &kp LBRC    &kp LBRC          &kp RBRC           &kp LPAR      &kp RPAR   &kp EQUAL
-         &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp LEFT_ARROW    &kp DOWN           &kp UP_ARROW  &kp RIGHT  &kp MINUS
+         &kp GRAVE  &kp UNDER       &trans          &kp PLUS         &kp LBRC    &kp LBRC          &kp RBRC           &kp LPAR      &kp RPAR   &kp EQUAL
+         &trans     &trans  &trans  &trans  &kp LBKT    &kp LEFT_ARROW    &kp DOWN           &kp UP_ARROW  &kp RIGHT  &kp MINUS
 &kp TAB  &trans     &kp PG_UP       &kp LG(DOWN)    &kp PG_DN        &kp LPAR    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none         &none      &kp KP_MULTIPLY  &trans
                                     &trans          &trans           &trans      &kp PERIOD        &kp N0             &kp KP_COMMA
             >;
